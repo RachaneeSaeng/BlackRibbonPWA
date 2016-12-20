@@ -1,0 +1,298 @@
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+button:disabled,
+nav a {
+    background-color: #eee
+}
+
+a.btn,
+button,
+nav a {
+    text-decoration: none;
+    display: inline-block
+}
+
+.items .badge,
+a.btn,
+button,
+nav a {
+    display: inline-block
+}
+
+.file-btn,
+.items .badge,
+.items .text,
+.items li {
+    position: relative
+}
+
+.items li,
+a,
+a.btn,
+button,
+input[type=file] {
+    cursor: pointer
+}
+
+.text-center,
+.upload-msg {
+    text-align: center
+}
+
+h1 {
+    color: #369;
+    font-size: 250%
+}
+
+h2,
+h3 {
+    color: #444;
+    font-weight: lighter
+}
+
+body {
+    margin: 0
+}
+
+body,
+button,
+input[text] {
+    color: #888;
+    font-family: Cambria, Georgia
+}
+
+a {
+    cursor: hand
+}
+
+button {
+    font-family: Arial;
+    border: none
+}
+
+.items li,
+nav a {
+    border-radius: 4px
+}
+
+button:hover {
+    background-color: #cfd8dc
+}
+
+button:disabled {
+    color: #aaa;
+    cursor: auto
+}
+
+nav a {
+    padding: 5px 10px;
+    margin-top: 10px
+}
+
+a:link,
+nav a:visited {
+    color: #607D8B
+}
+
+nav a.router-link-active,
+nav a:hover {
+    color: #039be5
+}
+
+nav a:hover {
+    background-color: #CFD8DC
+}
+
+.items li.selected:hover {
+    color: #fff
+}
+
+.items {
+    margin: 0 0 2em;
+    list-style-type: none;
+    padding: 0;
+    width: 24em
+}
+
+.items li {
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em
+}
+
+.items li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em
+}
+
+.items li.selected {
+    background-color: #CFD8DC;
+    color: #fff
+}
+
+.items li.selected:hover {
+    background-color: #BBD8DC
+}
+
+.items .text {
+    top: -3px
+}
+
+.items .badge {
+    font-size: small;
+    color: #fff;
+    padding: .8em .7em 0;
+    background-color: #607D8B;
+    line-height: 1em;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    max-width: 100%
+}
+
+.croppie-container {
+    padding: 0
+}
+
+a.btn,
+button {
+    background-color: #189094;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    font-size: 16px;
+    text-shadow: none
+}
+
+.file-btn input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0
+}
+
+.cropper-area {
+    display: none
+}
+
+.cropper-area.ready {
+    display: block
+}
+
+.cropper-area img {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.upload-result {
+    display: none
+}
+
+.advanced-options {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.upload-msg {
+    padding: 30px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 24px
+}
+
+#result-wrapper {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 320px;
+    float: left
+}
+
+#result-wrapper .image-area {
+    width: 300px;
+    margin: 10px
+}
+
+.left-pane {
+    width: 50%;
+    display: inline-block;
+    text-align: right
+}
+
+.left-pane .inner {
+    width: 320px;
+    float: right;
+    margin-right: 20px
+}
+
+.right-pane {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: top
+}
+
+.right-pane .inner {
+    width: 320px
+}
+
+.right-pane .processing-area {
+    display: none;
+    margin-top: 120px
+}
+
+.right-pane #result-wrapper {
+    margin-top: 60px!important
+}
+
+@media only screen and (max-width:800px) {
+    .left-pane,
+    .left-pane .inner,
+    .right-pane {
+        width: 100%
+    }
+    .left-pane .inner {
+        margin-right: 0
+    }
+    .right-pane .inner {
+        width: 100%;
+        margin-top: 20px
+    }
+    #result-wrapper {
+        float: none
+    }
+    .right-pane #result-wrapper {
+        margin-top: 20px!important
+    }
+}
+
+#badge-overlay-left-circle,
+#circle-display-frame {
+    display: none
+}
+
+.croppie-container .cr-slider-wrap {
+    margin-top: 10px
+}
